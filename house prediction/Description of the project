@@ -1,0 +1,9 @@
+House Prediction in Iowa:
+In this model we are predicting the house "SalePrice" by using Regression.
+The libraries used are: numpy, pandas, skikitlearn, matplotlib, seaborn
+The enviornment setup : Jupyter notebook
+The dataset is divided into training, test set each comprising 1460 observations, 81 features in training set and 1460 observations , 80 features in train set.
+The house prediction is done by considering various Regression models : Lasso, Rideg,ElasticNet, Ordinary Least Square Error. Before the model is given to the algorithms data cleaning and preprocessing is done. Other than that feature selection, feature engineering , encoding is done which optimized the data gradually.
+For comparision purposes Classification models : Support Vector machine and Random Forest is also applied. But as a result it has been seen that on this particular dataset Regression models exceeds Classification models. 
+
+
